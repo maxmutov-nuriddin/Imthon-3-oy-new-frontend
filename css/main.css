@@ -1349,6 +1349,11 @@ p {
   color: #fff;
 }
 
+.form-button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
 @media only screen and (max-width: 870px) {
   .form-controls {
     width: 100% !important;
