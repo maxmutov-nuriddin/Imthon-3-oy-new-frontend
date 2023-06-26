@@ -1,0 +1,199 @@
+.gallery {
+  background-color: #F4F4F4;
+}
+
+.gallery__header-text--small {
+  font-family: Cera Round Pro;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-align: left;
+
+}
+
+.gallery__header-text--small::after {
+  content: '';
+  margin-top: 10px;
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 9px;
+  background-image: url('../../images/Vector.svg');
+  background-repeat: no-repeat;
+}
+
+.gallery__header-text--large {
+  font-family: Cera Round Pro;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62px;
+  letter-spacing: 0.03em;
+
+}
+
+.gallery__header-text--description {
+  //styleName: Body 16px Regular;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  text-align: left;
+
+}
+
+.gallery__header-link {
+  font-family: Cera Round Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  padding: 8px 32px 8px 32px;
+  border-radius: 100px;
+  border: 1px solid #BB2339;
+  gap: 10px;
+  text-decoration: none;
+  color:
+    #242424;
+}
+
+.gallery__header-link:hover {
+  background-color: #BB2339;
+  color: #fff;
+}
+
+.photo {
+  position: relative;
+  overflow: hidden;
+}
+
+.photo__wrapper {
+  display: flex;
+}
+
+.photo__slide {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.photo__slide:last-child {
+  margin-right: 0;
+}
+
+.photo__slide img {
+  width: 100%;
+  height: auto;
+}
+
+.photo__prev,
+.photo__next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.photo__prev {
+  left: 0;
+}
+
+.photo__next {
+  right: 0;
+}
+
+.photo__prev:focus,
+.photo__next:focus {
+  outline: none;
+}
+
+.photo__prev:hover,
+.photo__next:hover {
+  color: #aaa;
+}
+
+// ==============================
+
+.photo__slide-img {
+  width: 301px;
+  height: 447px;
+  border-radius: 14px;
+  margin: 10px;
+}
+
+.photo {
+  position: relative;
+}
+
+.photo__slide {
+  position: relative;
+}
+
+.photo__slide-img {
+  width: 301px;
+  height: 447px;
+  border-radius: 23px;
+  margin: 10px;
+}
+
+.bg__imgs {
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  width: 321px;
+  height: 476px;
+  border-radius: 23px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 2px solid rgba(36, 36, 36, 0.2);
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.3s ease;
+}
+
+.photo__overlay {
+  background-image: url('../../images/u_instagram.svg');
+
+}
+
+.photo__overlays {
+  background: linear-gradient(207.55deg, rgba(0, 0, 0, 0.75) 1.5%, rgba(0, 0, 0, 0.64) 98.62%);
+}
+
+.photo__slide:hover .photo__overlay+.photo__overlays {
+  opacity: 0.5;
+  z-index: 7;
+}
+
+.photo__slide:nth-child(1) .photo__overlay {
+  z-index: 2;
+}
+
+.photo__slide:nth-child(2) .photo__overlay {
+  z-index: 3;
+}
+
+.photo__slide:nth-child(3) .photo__overlay {
+  z-index: 4;
+}
+
+.photo__slide:nth-child(4) .photo__overlay {
+  z-index: 5;
+}
+
+.photo__slide:nth-child(5) .photo__overlay {
+  z-index: 6;
+}
+
+.photo__slide:hover .photo__overlay {
+  opacity: 1;
+  z-index: 7;
+}

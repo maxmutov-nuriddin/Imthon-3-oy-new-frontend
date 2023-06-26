@@ -1,0 +1,99 @@
+.tab {
+  overflow-x: auto;
+  white-space: nowrap;
+  background-color: transparent;
+}
+
+.tab__button {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+}
+
+.tab button {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  background-color: #fff;
+  color: #333;
+  padding: 10px 30px 10px 30px;
+  border-radius: 100px;
+  border: 1px solid #BB2339;
+  gap: 10px;
+
+}
+
+.tab button:hover {
+  color: #fff;
+  background-color: #BB2339;
+}
+
+
+
+
+.our__context {
+  width: 428px;
+  height: 844px;
+  top: 259px;
+  left: 310px;
+  border-radius: 20px;
+  background-color: #BB2339;
+}
+
+.our__popular-titles {
+  color: #fff;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+
+}
+
+.tablinks {
+  margin-bottom: 25px;
+  width: 100%;
+  max-width: 200px;
+  height: 48px;
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 100px;
+  color: #fff;
+  flex: 0 0 auto;
+}
+
+.tablinks:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+
+@media (max-width: 991px) {
+  .our__popular-titles {
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .our__context {
+    width: 100%;
+    max-width: 650px;
+    height: 271px;
+  }
+
+  .tabs {
+    flex-direction: row;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    /* добавляем плавный скролл на iOS */
+  }
+}

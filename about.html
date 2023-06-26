@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+
+  <header class="header fixed-top px-0 px-md-5">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid py-0">
+        <a class="navbar-brand header__logo" href="./index.html">
+          <img class="header__logo-image" src="./images/header_logo.svg" alt="logo" width="135" height="47">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse d-lg-flex justify-content-end navbar-collapse header__nav" id="navbarTogglerDemo02">
+          <ul class="navbar-nav header__nav-menu align-items-center">
+            <li class="nav-item header__nav-menu-item">
+              <a class="nav-link header__nav-menu-link" aria-current="page" href="./menu.html">Menu</a>
+            </li>
+            <li class="nav-item header__nav-menu-item">
+              <a class="nav-link header__nav-menu-link" href="./news.html">News</a>
+            </li>
+            <li class="nav-item header__nav-menu-item">
+              <a class="nav-link header__nav-menu-link" href="./about.html">About Us</a>
+            </li>
+            <li class="nav-item header__nav-menu-item">
+              <a class="nav-link header__nav-menu-link" href="./contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item header__nav-menu-item ms-4">
+              <button class="header__nav-menu-button">
+                Log in
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="about  pt-5">
+      <div class="container">
+        <h2 class=" text-center">
+          About Us
+        </h2>
+        <div class="about__content d-flex flex-column text-center mx-auto" >
+          <div class="about__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere
+            tristique. In sed odio nec aliquet eu proin mauris et.Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit.
+            Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.
+          </div>
+          <div class="about__image my-4">
+            <img src="./images/pexels-ron-lach-8879653 2.png" alt="eaturkish">
+          </div>
+          <div class="about__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere
+            tristique. In sed odio nec aliquet eu proin mauris et.Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit.
+            Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris
+            et. It is a long established fact that a reader will be distracted by the readable content of a page when
+            looking at its layout.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <button id="scroll-to-top-btn" title="Go to top">
+    <img src="./images/chevron-double-up.svg" alt="up">
+  </button>
+  <footer class="footer px-5">
+    <div class="newsletter">
+      <p class="newsletter__title text-center">Newsletter</p>
+      <p class="newsletter__subtitle">Subscribe to Our Newsletter</p>
+      <p class="newsletter__description">And never miss latest Updates!</p>
+      <div class="newsletter__form text-center">
+        <form class="form-inline mb-3">
+          <div class="form-group d-inline-block">
+            <input type="email" class="form-controls " aria-describedby="emailHelp" placeholder="Email address">
+          </div>
+          <button type="submit" class="form-button ml-2">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer__content d-flex justify-content-between row">
+      <ul class="footer__list col-12 col-lg-4">
+        <li class="text-center  footer__item--title">Contact Us</li>
+        <li class="text-center my-3 footer__item"><a class="footer__link" href="#">9 W 53rd St, London, NY 10019, UK</a>
+        </li>
+        <li class="text-center footer__item"><a class="footer__link" href="#">+1 212-344-1230</a></li>
+        <li class="text-center footer__item"><a class="footer__link" href="#">+1 212-555-1230</a></li>
+      </ul>
+      <div class="footer__logor my-5 my-lg-0 col-12 col-lg-4">
+        <a class="footer__logo-link justify-content-center d-flex" href="#">
+          <img class="footer__logo-image" src="./images/image 2.svg" alt="footer logo">
+        </a>
+        <blockquote class="footer__quote text-center mt-4 mb-5">"The best way to find yourself is to lose yourself in
+          the <br> service of others.”</blockquote>
+        <ul class="footer__social-list d-flex justify-content-center">
+          <li class="footer__social-item"><a class="footer__social-link" href="https://www.facebook.com/">
+              <img class="footer__social-icon" src="./images/u_facebook-f.svg" alt="facebook"></a></li>
+          <li class="footer__social-item mx-3"><a class="footer__social-link" href="https://twitter.com/">
+              <img class="footer__social-icon" src="./images/u_twitter-alt.svg" alt="twiter"></a></li>
+          <li class="footer__social-item"><a class="footer__social-link" href="https://www.instagram.com/">
+              <img class="footer__social-icon" src="./images/u_instagram2.svg" alt="instagram"></a></li>
+        </ul>
+      </div>
+      <ul class="footer__list col-12 col-lg-4">
+        <li class="text-center  footer__item--title">Working Hours</li>
+        <li class="text-center my-3 footer__item"><a class="footer__link" href="#">Monday-Friday: <br> 08:00 am -12:00
+            am</a></li>
+        <li class="text-center footer__item"><a class="footer__link" href="#">Saturday-Sunday: <br> 07:00am -11:00
+            pm</a></li>
+      </ul>
+    </div>
+    <p class="footer__copy ms-3 text-center mt-5">2022 Pop online. All Rights reserved.</p>
+  </footer>
+
+
+  <script src="./js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

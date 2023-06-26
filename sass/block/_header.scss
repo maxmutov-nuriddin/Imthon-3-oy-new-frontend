@@ -1,0 +1,40 @@
+.header{
+  background-color: #BB2339;
+}
+
+
+
+.header__nav-menu-link {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #FFFFFF !important;
+}
+
+.header__nav-menu-link:hover{
+  text-decoration: underline;
+  color: #f9fb6a !important;
+}
+
+.header__nav-menu-button {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  padding: 10px 40px 10px 40px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  gap: 10px;
+  color: #fff;
+  background-color: transparent;
+}
+
+.header__nav-menu-button:hover{
+  color: #333;
+  background-color: #fff;
+}

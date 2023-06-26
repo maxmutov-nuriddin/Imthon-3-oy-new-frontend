@@ -1,0 +1,22 @@
+.card, .imgs {
+  /* ... */
+  position: relative;
+  transition: transform 0.5s ease-out;
+  &:hover {
+    transform: rotateY(20deg) translateX(20px);
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+  }
+  &:hover::before {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,75 @@
+.register__heading {
+  font-family: Cera Round Pro;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 83px;
+  letter-spacing: 0.03em;
+  text-align: right;
+  color: rgba(36, 36, 36, 1);
+}
+
+.register__subheading {
+  font-family: Open Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.register__link {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(36, 36, 36, 1);
+  text-decoration: none;
+}
+
+.message-form__title {
+  font-family: Open Sans;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(36, 36, 36, 1);
+}
+
+.message-form__description {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(36, 36, 36, 1);
+}
+
+.ifram {
+  width: 100%;
+  height: 450px;
+}
+
+@media only screen and (max-width: 332px) {
+  .register__heading {
+    font-family: Cera Round Pro;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: right;
+
+  }
+
+  .message-form__title{
+    font-size: 36px;
+  }
+
+  .message-form__description {
+    font-size: 14px;
+  }
+}

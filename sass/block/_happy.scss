@@ -1,0 +1,174 @@
+.happy {
+  background-color: #F4F4F4;
+}
+
+.happy__title {
+  font-family: Cera Round Pro;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+.happy__heading {
+  font-family: Cera Round Pro;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+}
+
+.happy__name {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.happy__text,
+.happy__time,
+.happy__date,
+.happy__number {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  vertical-align: middle;
+
+}
+
+.happy__title::after {
+  content: '';
+  margin-top: 10px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 9px;
+  background-image: url('../../images/spoon.svg');
+  background-repeat: no-repeat;
+}
+
+.happy__before::before {
+  content: '';
+  display: inline-block;
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  vertical-align: sub;
+}
+
+.happy__date::before {
+  content: '';
+  background-image: url('../../images/calendar.svg');
+}
+
+.happy__time::before {
+  content: '';
+  background-image: url('../../images/clock.svg');
+}
+
+.happy__number::before {
+  content: '';
+  background-image: url('../../images/eye.svg');
+}
+
+
+.swiper-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.swiper-pagination-bullet {
+  flex-shrink: 0;
+  margin: 0 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #333;
+}
+
+.swiper-buttons {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  background-image: url('../../images/chevron-left.svg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+
+  padding: 10px 0px 10px 0px;
+  border-radius: 10px;
+  border: 2px solid #646464;
+
+  left: 0;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 20px;
+  left: 40%;
+}
+
+.swiper-button-next {
+  position: absolute;
+  background-image: url('../../images/chevron-right.svg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+
+  padding: 10px 0px 10px 0px;
+  border-radius: 10px;
+  border: 2px solid #646464;
+
+  right: 0;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 20px;
+  right: 40%;
+}
+
+.swiper-button-prev:hover {
+  border: 2px solid #BB2339;
+
+}
+
+.swiper-button-next:hover {
+  border: 2px solid #BB2339;
+}
